@@ -17,3 +17,7 @@ class SimpleTopo(Topo):
 
 
 topos = {'simpletopo': (lambda: SimpleTopo())}
+
+# To show the flows in the switch s1.
+
+# mininet> sh ovs-ofctl dump-flows s1
